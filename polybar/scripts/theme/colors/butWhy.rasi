@@ -1,0 +1,11 @@
+* {
+bg: #0B1116;
+bg-alpha:  #0a1628cc;
+al: #141E26; 
+fg: #E2ECF3; 
+ac: #5FA7C8; 
+se: #2A3B47; 
+ur: #9ECFE3; 
+dis: #1A232A; 
+}
+

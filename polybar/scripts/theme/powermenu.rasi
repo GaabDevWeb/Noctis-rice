@@ -1,0 +1,132 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+@import "colors/purpleEva.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       500px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px;
+    border-radius:               8px;
+    border-color:                @ac;
+    cursor:                      "default";
+    background-color:            @bg-alpha;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     8px;
+    margin:                      0px;
+    padding:                     16px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @se;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px 0px 8px 0px;
+    padding:                     0px;
+    border:                      0px;
+    border-radius:               0px;
+    border-color:                @se;
+    background-color:            transparent;
+    text-color:                  @fg;
+    children:                    [ "prompt" ];
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     4px 0px;
+    border-radius:               0px;
+    background-color:            transparent;
+    text-color:                  @fg;
+    font:                        "JetBrainsMono Nerd Font 10";
+    opacity:                    0.7;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     5;
+    lines:                       1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    spacing:                     6px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @se;
+    background-color:            transparent;
+    text-color:                  @fg;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     12px 8px;
+    border:                      0px solid;
+    border-radius:               4px;
+    border-color:                transparent;
+    background-color:            transparent;
+    text-color:                  @fg;
+    cursor:                      pointer;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    font:                        "JetBrainsMono Nerd Font 11";
+}
+
+element normal.normal {
+    background-color:            transparent;
+    text-color:                  @fg;
+    opacity:                    0.8;
+}
+
+element normal.active {
+    background-color:            transparent;
+    text-color:                  @ac;
+    opacity:                    1.0;
+}
+
+element selected.normal {
+    background-color:            @ac;
+    text-color:                  @bg;
+    opacity:                    1.0;
+    border-radius:               4px;
+}

@@ -1,0 +1,168 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Rofi Theme File
+ * Rofi Version: 1.7.3
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+@import "colors/purpleEva.rasi"
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       900px;
+    height: 300px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      1px solid;
+    border-radius:               8px;
+    border-color:                @ac;
+    cursor:                      "default";
+    background-color:            @bg-alpha;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     15px;
+    margin:                      0px;
+    padding:                     10px;
+    background-color:            transparent;
+    orientation:                 horizontal;
+    children:                    [ "listview", "imagebox" ];  
+}
+
+/*****----- Imagebox -----*****/
+imagebox {
+    background-color:            transparent;
+    background-image:            url("~/.config/polybar/wallpapers/purpleEva.jpg", BOTH);
+    children:                    [ "dummy", "inputbar", "dummy" ];
+    expand: false;
+    width: 25%;
+}
+
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     15px;
+    background-color:            transparent;
+    text-color:                  @fg;
+    children:                    [ "dummy",  "textbox-prompt-colon", "prompt", "dummy"];
+    margin: 20% 0 0 0;
+}
+
+dummy{
+    background-color:            transparent;
+}
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         " ";
+    padding:                     10px 13px;
+    border-radius:               0px;
+    background-color:            @bg;
+    text-color:                  @fg;
+    haling: 10;
+    font:                        "JetBrainsMono Nerd Font 12";
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     10px;
+    border-radius:               0px;
+    background-color:            @bg;
+    text-color:                  @fg;
+    font:                        "JetBrainsMono Nerd Font 12";
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     10px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @se;
+    background-color:            @al;
+    text-color:                  @fg;
+}
+textbox {
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     6;
+    lines:                       1;
+    cycle:                       true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    spacing:                     5px;
+    background-color:            transparent;
+    cursor:                      "default";
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    padding:                     10px;
+    border:                      0px solid;
+    border-radius:               3px;
+    border-color:                @se;
+    background-color:            transparent;
+    text-color:                  @fg;
+    cursor:                      pointer;
+}
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    font:                        "JetBrainsMono Nerd Font 11";
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color:            @bg;
+    text-color:                  @fg;
+}
+element normal.urgent,
+element alternate.urgent,
+element selected.active {
+    background-color:            @bg;
+    text-color:                  @fg;
+}
+element normal.active,
+element alternate.active,
+element selected.urgent {
+    background-color:            @ac;
+    text-color:                  @fg;
+}
+element selected.normal {
+    background-color:            @ac;
+    text-color:                  @bg;
+}
