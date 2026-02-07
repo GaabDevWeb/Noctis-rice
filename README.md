@@ -1,7 +1,7 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=#8F6DE3&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=89E051&height=120&section=header"/>
 
 # Noctis Rice - GNOME
-
+zz
 Um rice minimalista e funcional para ambientes GNOME. Este projeto personaliza o visual da interface com **Polybar** e **Rofi**, oferecendo uma experiência leve, bonita e eficiente.
 
 ---
@@ -248,4 +248,4 @@ Na desinstalação, o script:
 ### Apoie o Projeto
 Se gostou do projeto, deixe uma ⭐ no repositório – sua ajuda faz diferença.
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=8F6DE3&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=89E051&height=120&section=footer"/>
