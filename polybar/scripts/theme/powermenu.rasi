@@ -7,7 +7,7 @@ configuration {
 @import "colors/purpleEva.rasi"
 
 * {
-    font: "JetBrainsMono Nerd Font 11";
+    font: "Courier New 11";
 }
 
 /*****----- Main Window -----*****/
@@ -62,7 +62,7 @@ prompt {
     border-radius:               0px;
     background-color:            transparent;
     text-color:                  @fg;
-    font:                        "JetBrainsMono Nerd Font 10";
+    font:                        "Courier New 10";
     opacity:                    0.7;
 }
 
@@ -109,7 +109,7 @@ element-text {
     cursor:                      inherit;
     vertical-align:              0.5;
     horizontal-align:            0.5;
-    font:                        "JetBrainsMono Nerd Font 11";
+    font:                        "Courier New 11";
 }
 
 element normal.normal {

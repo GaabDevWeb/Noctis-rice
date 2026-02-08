@@ -16,7 +16,7 @@ configuration {
 @import "colors/purpleEva.rasi"
 
 * {
-    font: "JetBrainsMono Nerd Font 11";
+    font: "Courier New 11";
 }
 
 
@@ -27,7 +27,7 @@ window {
     anchor:                      center;
     fullscreen:                  false;
     width:                       900px;
-    height: 300px;
+    height: 290px;
     x-offset:                    0px;
     y-offset:                    0px;
     margin:                      0px;
@@ -82,7 +82,7 @@ textbox-prompt-colon {
     background-color:            @bg;
     text-color:                  @fg;
     haling: 10;
-    font:                        "JetBrainsMono Nerd Font 12";
+    font:                        "Courier New 12";
 }
 
 prompt {
@@ -91,7 +91,7 @@ prompt {
     border-radius:               0px;
     background-color:            @bg;
     text-color:                  @fg;
-    font:                        "JetBrainsMono Nerd Font 12";
+    font:                        "Courier New 12";
 }
 
 /*****----- Message -----*****/
@@ -142,7 +142,7 @@ element-text {
     cursor:                      inherit;
     vertical-align:              0.5;
     horizontal-align:            0.0;
-    font:                        "JetBrainsMono Nerd Font 11";
+    font:                        "Courier New 11";
 }
 
 element normal.normal,

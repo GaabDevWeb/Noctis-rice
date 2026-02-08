@@ -24,7 +24,7 @@ configuration {
 @import "colors/purpleEva.rasi"
 
 * {
-    font: "JetBrainsMono Nerd Font 11";
+    font: "Courier New 11";
 }
 
 /*****----- Main Window -----*****/
@@ -34,7 +34,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1000px;
+    width:                       900px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -87,7 +87,7 @@ inputbar {
     background-color:            @al;
     text-color:                  @fg;
     children:                    [ "textbox-prompt-colon", "entry" ];
-    font:                        "JetBrainsMono Nerd Font 13";
+    font:                        "Courier New 13";
 }
 textbox-prompt-colon {
     enabled:                     true;
@@ -189,7 +189,7 @@ element-text {
     cursor:                      inherit;
     vertical-align:              0.5;
     horizontal-align:            0.0;
-    font:                        "JetBrainsMono Nerd Font 11";
+    font:                        "Courier New 11";
 }
 
 /*****----- Message -----*****/
