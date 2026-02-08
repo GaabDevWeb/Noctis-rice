@@ -124,10 +124,12 @@ Na desinstalação, o script:
 ## **Galeria**
 
 
-<p style="align-items:center;">
-  <img src="previw/gallery/choseTemas.jpg" alt="Chose Temas" style="max-width:100%;height:auto;margin:0;" />
-  <img src="previw/gallery/polybarPreviw.jpg" alt="Polybar Preview" style="max-width:100%%;height:auto;margin:0; text-align: center;" />
-  <img src="previw/gallery/mudandoTemas.gif" alt="Temes" style="max-width:100%%;height:100%;margin:0;" />
+
+<p align="center">
+  <img src="previw/gallery/polybarPreviw.jpg" width="900">
+  <img src="previw/gallery/mudandoTemas.gif" width="900">
+  <img src="previw/gallery/choseTemas.jpg" width="900">
+
 </p>
 
 
