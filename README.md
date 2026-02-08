@@ -184,13 +184,43 @@ Na desinstalação, o script:
 </details>
 
 <details>
-  <summary> Cowboy Bebop </summary>
+  <summary> Chrollo Sarasa </summary>
 
-  ![Cowboy Bebop](previw/CowboyBebop/CowboyBebop.jpg)
+  ![Chrollo Sarasa](previw/chrolloSarasa/chrolloSarasa.jpg)
   ---
-  ![Cowboy Bebop 1](previw/CowboyBebop/CowboyBebop-1.jpg)
+  ![Chrollo Sarasa 1](previw/chrolloSarasa/chrolloSarasa-1.jpg)
   ---
-  ![Cowboy Bebop 2](previw/CowboyBebop/CowboyBebop-2.jpg)
+  ![Chrollo Sarasa 2](previw/chrolloSarasa/chrolloSarasa-2.jpg)
+</details>
+
+<details>
+  <summary> Death </summary>
+
+  ![Death](previw/death/death.jpg)
+  ---
+  ![Death 1](previw/death/death-1.jpg)
+  ---
+  ![Death 2](previw/death/death-2.jpg)
+</details>
+
+<details>
+  <summary> Full Metal </summary>
+
+  ![Full Metal](previw/fullMetal/fullMetal.jpg)
+  ---
+  ![Full Metal 1](previw/fullMetal/fullMetal-1.jpg)
+  ---
+  ![Full Metal 2](previw/fullMetal/fullMetal-2.jpg)
+</details>
+
+<details>
+  <summary> Hands </summary>
+
+  ![Hands](previw/hands/hands.jpg)
+  ---
+  ![Hands 1](previw/hands/hands-1.jpg)
+  ---
+  ![Hands 2](previw/hands/hands-2.jpg)
 </details>
 
 <details>
@@ -204,6 +234,26 @@ Na desinstalação, o script:
 </details>
 
 <details>
+  <summary> Mc Larem </summary>
+
+  ![Mc Larem](previw/mcLarem/mcLarem.jpg)
+  ---
+  ![Mc Larem 1](previw/mcLarem/mcLarem-1.jpg)
+  ---
+  ![Mc Larem 2](previw/mcLarem/mcLarem-2.jpg)
+</details>
+
+<details>
+  <summary> Mr Robot </summary>
+
+  ![Mr Robot](previw/mrRobot/mrRobot.jpg)
+  ---
+  ![Mr Robot 1](previw/mrRobot/mrRobot-1.jpg)
+  ---
+  ![Mr Robot 2](previw/mrRobot/mrRobot-2.jpg)
+</details>
+
+<details>
   <summary> Pact Linux </summary>
 
   ![Pact Linux](previw/PactLinux/PactLinux.jpg)
@@ -211,6 +261,16 @@ Na desinstalação, o script:
   ![Pact Linux 1](previw/PactLinux/PactLinux-1.jpg)
   ---
   ![Pact Linux 2](previw/PactLinux/PactLinux-2.jpg)
+</details>
+
+<details>
+  <summary> Purple </summary>
+
+  ![Purple](previw/purple/Purple.jpg)
+  ---
+  ![Purple 1](previw/purple/Purple-1.jpg)
+  ---
+  ![Purple 2](previw/purple/Purple-2.jpg)
 </details>
 
 <details>
