@@ -1,7 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=89E051&height=120&section=header"/>
 
 # Noctis Rice - GNOME
-zz
 Um rice minimalista e funcional para ambientes GNOME. Este projeto personaliza o visual da interface com **Polybar** e **Rofi**, oferecendo uma experiência leve, bonita e eficiente.
 
 ---
@@ -10,7 +9,7 @@ Um rice minimalista e funcional para ambientes GNOME. Este projeto personaliza o
 
 - Compatível com **GNOME**
 - **Barra personalizada com Polybar**
-- **12 temas diferentes**, com mudanças dinâmicas nas cores da barra
+- **18 temas diferentes**, com mudanças dinâmicas nas cores da barra
 - **Menu de internet**
 - **Powermenu**
 - **Menu de aplicativos** com Rofi
