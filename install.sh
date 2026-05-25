@@ -1,6 +1,16 @@
 #!/bin/bash
 
-sudo apt install polybar rofi dbus-x11 -y
+# Polybar usa JetBrains Mono (texto) e FontAwesome (ícones) — ver polybar/config/config.ini
+sudo apt install -y polybar rofi dbus-x11 fonts-jetbrains-mono fonts-font-awesome
+
+fc-cache -f 2>/dev/null || true
+
+if ! fc-list | grep -qi 'fontawesome'; then
+    echo "Aviso: FontAwesome não foi detectada. Os ícones da barra podem não aparecer."
+fi
+if ! fc-list | grep -qi 'jetbrains mono'; then
+    echo "Aviso: JetBrains Mono não foi detectada. O texto da barra pode usar fonte substituta."
+fi
 
 if [ -e "$HOME/.config/polybar" ]; then
     rm -rf "$HOME/.config/polybar"

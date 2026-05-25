@@ -20,6 +20,7 @@ Um rice minimalista e funcional para ambientes GNOME. Este projeto personaliza o
 
 - GNOME instalado (sessão X11 ou XWayland)
 - `polybar`, `rofi`, `dbus-x11` (instalados pelo script)
+- `fonts-jetbrains-mono` e `fonts-font-awesome` (instalados pelo script; necessários para texto e ícones na Polybar)
 - NetworkManager (`nmcli`) para o menu de Wi-Fi
 - Opcional: `pavucontrol` para controle rápido de áudio
 - Opcional: `playerctl` para exibir e controlar o player de mídia no centro da barra
@@ -53,6 +54,7 @@ Abra o powermenu e selecione **Theme**. O script atualiza:
 - papel de parede e imagem do menu
 
 ### Menus rápidos
+- Clique no ícone **** no centro (à direita do player) para recolher a barra; aparece uma aba pequena no topo com **** para expandir de novo
 - Clique no ícone de energia para abrir o powermenu
 - Clique no ícone de Wi‑Fi para abrir o menu de redes
 - Clique com o botão direito no ícone “foguete” para abrir o menu de apps (Rofi)
@@ -61,7 +63,7 @@ Abra o powermenu e selecione **Theme**. O script atualiza:
 | Lado      | Módulos |
 |-----------|---------|
 | Esquerda  | Overview GNOME, workspaces, janela atual |
-| Centro    | Player de mídia (quando há `playerctl` e algo tocando) |
+| Centro    | Player de mídia (quando há `playerctl` e algo tocando), recolher barra |
 | Direita   | Wi‑Fi, áudio, relógio, powermenu |
 
 ## Scripts da Polybar
@@ -74,6 +76,7 @@ Os scripts em `~/.config/polybar/scripts/` são usados pela barra:
 | `powermenu.sh` | Menu de energia e troca de tema |
 | `rofi-wifi-menu.sh` | Menu de redes Wi‑Fi ao clicar no ícone de rede |
 | `player.sh` | Exibe e controla o player de mídia no centro (requer `playerctl`) |
+| `toggle_bar.sh` | Recolhe a barra principal (``) ou expande de novo (`` na aba central) |
 
 **Script não utilizado por padrão:** `battery.sh` — existe no projeto mas não está ligado em nenhum módulo da barra. Em laptops, você pode ativar o indicador de bateria adicionando um módulo `custom/script` que chame esse script em `config.ini` e incluindo-o em `modules-right`. O script lê `/sys/class/power_supply/BAT0`; em alguns notebooks o caminho pode ser `BAT1` ou outro.
 
@@ -100,7 +103,7 @@ Para **remover apenas os atalhos** (Super+Enter e Super+Q) sem desinstalar o ric
 ## O que é alterado pelo projeto
 
 Durante a instalação, o script aplica as seguintes mudanças:
-- Instala `polybar`, `rofi` e `dbus-x11`
+- Instala `polybar`, `rofi`, `dbus-x11`, `fonts-jetbrains-mono` e `fonts-font-awesome`
 - Copia `polybar/` para `~/.config/polybar`
 - Adiciona autostart em `~/.config/autostart/polybar.desktop`
 - Ajusta caminhos no `config.ini` (expansão de `~`)
